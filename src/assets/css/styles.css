@@ -1,0 +1,104 @@
+/* Reset và font chung */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #0f0f0f;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chính */
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    background-color: #ffffff;
+}
+
+.container-pdf {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    background-color: #ffffff;
+}
+
+/* Header sticky */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    ;
+    z-index: 100;
+    padding: 1.5rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #b3adad;
+}
+
+/* Tiêu đề */
+.page-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #070707;
+}
+
+/* Nội dung */
+.page-body {
+    font-size: 1.1rem;
+    color: #050505;
+    line-height: 1.8;
+    padding: 1rem 0 3rem;
+}
+
+.page-body p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+
+.ipa {
+    color: #cc1c1c;
+    /* Màu đỏ Google */
+    /* font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', sans-serif; */
+    background-color: #ebe1e4;
+    /* Nền nhạt */
+    padding: 2px 4px;
+    border-radius: 3px;
+    /* font-style: italic; */
+}
+
+
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .sticky-header {
+        padding: 1rem 0;
+    }
+
+    .page-title {
+        font-size: 1.75rem;
+    }
+
+    .page-body {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .sticky-header {
+        padding: 0.8rem 0;
+    }
+}
